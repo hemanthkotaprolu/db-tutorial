@@ -6,7 +6,7 @@ const connectionParams = {
 }
 
 mongoose.connect(
-  "mongodb+srv://kotaproluhemanth:mongodb@cluster1.49ync9e.mongodb.net/fruitsDB?retryWrites=true&w=majority",
+  <mongodb connection string>,
   connectionParams
 );
 
